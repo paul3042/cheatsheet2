@@ -1,0 +1,147 @@
+
+/*General Rules*/
+
+@font-face {
+    font-family: Roboto_Mono;
+    src: url("../Fonts/RobotoMono-VariableFont_wght.ttf") format(truetype);
+}
+
+@font-face {
+    font-family: Share_Tech;
+    src: url("../Fonts/ShareTechMono-Regular.ttf") format(truetype);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+
+    background-image: url("../Media/The\ Matrix.jpg");
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+    font-family: Roboto_Mono, mono;
+    color: white; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*Navbar*/
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    background-color: rgba(169, 169, 169, 0.5);
+    z-index: 10;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    border: solid 1px rgba(169, 169, 169, 0.5);
+    background-color:rgba(169, 169, 169, 0.5);
+    border-radius: 10px;
+    padding: 0 15px;
+    margin: 15px;
+}
+
+.navbar li a:hover {
+    background-color: rgba(169, 169, 169, 1);
+}
+
+.navbar a:link {
+    color: white;
+}
+ 
+.navbar a:visited {
+    color: white;
+}
+
+
+/*Heading*/
+
+h1 {
+    position: relative;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+/*Main_nav*/
+
+.main_nav {
+    position: fixed;
+    width: 100%;
+    top: 50%;
+    padding: 10px;
+    text-align: center;
+    font-family: Share_Tech, mono;
+}
+
+.main_nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main_nav ul li {
+    display: inline-block;  
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 10px 100px; 
+    line-height: 100px;    
+    font-size: 3em;
+    background-color:rgba(169, 169, 169, 0.5);
+}
+
+.main_nav li a {
+    text-decoration: none; 
+}
+    
+.main_nav ul li:hover {
+    background-color: rgba(169, 169, 169, 1);
+}
+
+.tag {
+    color: coral;
+    filter: drop-shadow(1px 1px 0px black);
+}
+
+.curly {
+    color: orange;
+    filter: drop-shadow(1px 1px 0px black);
+}
+
+
+/*Footer*/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    font-size: 2vh;
+    z-index: 0;
+}

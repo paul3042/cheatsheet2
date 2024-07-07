@@ -1,0 +1,88 @@
+/*General*/
+
+.cssp {
+    font-family: Share_Tech;
+    color: orange;
+    background-color: rgba(47, 79, 79, 0.75);
+}
+
+.cssv {
+    font-family: Share_Tech;
+    color: yellow;
+    background-color: rgba(47, 79, 79, 0.75);
+}
+
+details {
+    margin: 50px 100px;
+    background-color: rgba(47, 79, 79, 0.5);
+}
+
+summary {
+    background-color: rgba(169, 169, 169, 0.5);
+    padding: 10px;
+    list-style-type: none;
+    font-weight: 600;
+}
+
+summary:focus-within {
+    background-color: rgba(169, 169, 169, 1);
+}
+
+summary:hover {
+    background-color: rgba(169, 169, 169, 1);
+}
+
+
+/*Table General Rules*/
+
+table {
+    width: 100%;
+}
+
+tr {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+tr.odd {
+    background-color: rgba(169, 169, 169, 0.5);
+}
+
+th {
+    font-weight: 500;
+    border-bottom: 2px solid rgba(169, 169, 169, 0.75); 
+}
+
+td, th {
+    font-weight: 400;
+    text-align: left;
+}
+
+th.center, td.center {
+    text-align: center;
+    width: 25%;
+}
+
+th, td {
+    padding: 5px 10px;
+}
+
+
+/*Table Specific*/
+
+.fonts {
+    position: relative;
+    top: 150px;
+}
+
+.layout {
+    position: relative;
+    top: 150px;
+}
+
+.hidden {
+    position: relative;
+    top: 150px;
+    visibility: hidden;
+}
